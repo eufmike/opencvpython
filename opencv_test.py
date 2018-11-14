@@ -1,3 +1,7 @@
 # %%
 from PIL import Image
-pil_im = Image.open('empire.jpg')
+import os
+pil_im = Image.open('pikachu.png')
+
+pil_im.convert('L').save('pikachu_1.png')
+
